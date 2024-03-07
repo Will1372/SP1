@@ -164,6 +164,7 @@ void tjekSpecialCollisions(){ // validerer om hvorvidt specials kolliderer med s
 void tjekGameOver(){ // tjekker bare om man er død i spillet og skriver ens score til sidst
     
   if (lives <= 0){
+
     textSize(22); 
     fill(255,50,0);
     textAlign(CENTER,CENTER);
