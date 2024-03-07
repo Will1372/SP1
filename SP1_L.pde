@@ -66,7 +66,6 @@ void draw(){ // draw metoden, der kalder alle funktionerne
       
      enemySpawnRate = 25; // default er 50
      enemySize = 60; // default er 50
-     spillerSpeed = 5;
      
    }
 } 
