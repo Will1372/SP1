@@ -70,7 +70,7 @@ void draw(){ // draw metoden, der kalder alle funktionerne
    }
 } 
 
-void keyPressed(){ // 'input' tjekker til højre og venstre piltast
+void keyPressed(){ // 'input' tjekker til højre og venstre piltast - man kunne også have valgt at bruge musen, men føler det er en federe følelse med piltasterne
   
   if (keyCode == RIGHT && spillerX+spillerSize/2 < width){ // if-statements, relationelle - og boolske operationer
     spillerX += spillerSpeed;
